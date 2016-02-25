@@ -32,10 +32,18 @@ This shows the value of the plot with 2 decimal places.  A blank line, then the 
 ##Graph BGK Colors
 This allows a graph to easily have its background color changed, and the gird lines will automatically be colored to subtly match the color based on shifting the luminance up or down to constrast the color set.
 
+![BGK-1](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/SetBGKColor-2.JPG)
+
+![BGK-2](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/SetBGKColor-2.JPG)
+
+![BGK-3](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/SetBGKColor-3.JPG)
+
 Used by reference with a color input, to simply change the color. Can be user driven or used once for initialization.
 
 ##Peaks and Valleys
 Allows data to be scanned for peaks and valleys with width and amplitude thresholds to determine them.  It can be used statically or driven in an event structure on graph scale changes to have it follow the graph edits by a user.
+
+![Peaks&Valleys-1](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Peaks&Valleys.jpg)
 
 ##Markers
 Under development:  Allows user positioned markers and 
