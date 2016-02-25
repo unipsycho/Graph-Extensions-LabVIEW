@@ -1,2 +1,34 @@
 # Graph-Extensions-LabVIEW
 These add some nice mouse effects and highlighting options on XY graphs and Waveform graphs by extending the picture controls within graphs and some simple events.
+
+##Cursors
+-Shows cursors automatically at mouse for each plot.  Various options to enable added lines, sizing, text formating, timestamp displays, etc.
+
+
+Shows real time cursors overlayed in a graph, using just one mouse move event case.  The options for the cursors can be highly customized to set up a unique cursor style.
+
+Usage: Place this inside an event structure on any XY graph, in the "Mouse Move" event case.  Set the options as an input cluster to override the defaults.  The output picture control would typically be connected to the XY Graph's "PlotImages.Front" property item.
+
+Cursor Options
+<b>Horizontal Line?</b> - Draws a horizontal line to intersect each plot
+<b>Verticle Line?</b> - Draws a verticle line at the mouse location to highlight the cursor location (typically on the time scale)
+<b>Timestamp</b> - Sets where to display the timestamp (if you want it at the top or bottom)  Used best with the verticle line turned on.
+<b>Font</b> - Setup the font for displaying the cursor text
+<b>Alignment</b> - Sets the alignment options for the text relative to the cursor point
+<b>TextFormat</b> - Sets the text display format at the cursor points to show.  Three input parameters are available for the text, which can be accessed using parameter numbers.
+inputs: 
+1$ - Timestamp at cursor locations
+2$ - Value of the plot
+3$ - Name of the plot
+
+Examples: $2$.2f\n\n%1$s
+This shows the value of the plot with 2 decimal places.  A blank line, then the name of the plot 
+
+
+##Graph BGK Colors
+
+
+##Peaks and Valleys
+
+
+##Markers
