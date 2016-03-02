@@ -19,9 +19,9 @@ Usage: Place this inside an event structure on any XY graph, in the "Mouse Move"
 <b>Alignment</b> - Sets the alignment options for the text relative to the cursor point
 <b>TextFormat</b> - Sets the text display format at the cursor points to show.  Three input parameters are available for the text, which can be accessed using parameter numbers.
 inputs: 
-1. Timestamp at cursor locations
-2. Value of the plot
-3. Name of the plot
+* Timestamp at cursor locations
+* Value of the plot
+* Name of the plot
 
 Examples: $2$.2f\n\n%1$s
 This shows the value of the plot with 2 decimal places.  A blank line, then the name of the plot 
@@ -47,12 +47,12 @@ Allows data to be scanned for peaks and valleys with width and amplitude thresho
 ##Markers
 Current in development:
 Markers will allow a user to add 6 types of markers to a graph:
-1. Point
-2. Line Vertical
-3. Line Horizontal
-4. Range Vertical
-5. Range Horizontal
-6. Range Box
+* Point
+* Line Vertical
+* Line Horizontal
+* Range Vertical
+* Range Horizontal
+* Range Box
 
 ![RangeHorizontal](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-HorizontalRange.jpg)
 
