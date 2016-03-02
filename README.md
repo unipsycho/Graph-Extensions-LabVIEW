@@ -4,7 +4,6 @@ These add some nice mouse effects and highlighting options on XY graphs and Wave
 ##Cursors
 -Shows cursors automatically at mouse for each plot.  Various options to enable added lines, sizing, text formating, timestamp displays, etc.
 
-
 Shows real time cursors overlayed in a graph, using just one mouse move event case.  The options for the cursors can be highly customized to set up a unique cursor style.
 
 Usage: Place this inside an event structure on any XY graph, in the "Mouse Move" event case.  Set the options as an input cluster to override the defaults.  The output picture control would typically be connected to the XY Graph's "PlotImages.Front" property item.
