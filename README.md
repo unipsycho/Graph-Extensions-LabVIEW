@@ -48,9 +48,9 @@ Allows data to be scanned for peaks and valleys with width and amplitude thresho
 ##Markers
 Current in development:
 Markers will allow a user to add 6 types of markers to a graph:
-1$ - Point
-2$ - Line Vertical
-3$ - Line Horizontal
+1. Point
+2. Line Vertical
+3. Line Horizontal
 4$ - Range Vertical
 5$ - Range Horizontal
 6$ - Range Box
