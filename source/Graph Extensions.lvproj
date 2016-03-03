@@ -17,10 +17,13 @@
 			<Item Name="Show Cursors.vi" Type="VI" URL="../Extensions/Show Cursors.vi"/>
 			<Item Name="Show Peaks &amp; Valleys.vi" Type="VI" URL="../Extensions/Show Peaks &amp; Valleys.vi"/>
 		</Item>
+		<Item Name="commands.ctl" Type="VI" URL="../controls/commands.ctl"/>
 		<Item Name="Example XYGraph Cursors.vi" Type="VI" URL="../Example XYGraph Cursors.vi"/>
 		<Item Name="Example XYGraph Markers.vi" Type="VI" URL="../Example XYGraph Markers.vi"/>
 		<Item Name="Example XYGraph Peaks&amp;Valleys.vi" Type="VI" URL="../Example XYGraph Peaks&amp;Valleys.vi"/>
 		<Item Name="Example XYGraph Set BGK Color.vi" Type="VI" URL="../Example XYGraph Set BGK Color.vi"/>
+		<Item Name="GraphExt-Cmds.ctl" Type="VI" URL="../controls/GraphExt-Cmds.ctl"/>
+		<Item Name="markerType.ctl" Type="VI" URL="../controls/markerType.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -51,6 +54,7 @@
 			<Item Name="CursorOptions.ctl" Type="VI" URL="../controls/CursorOptions.ctl"/>
 			<Item Name="Draw Lines at Point.vi" Type="VI" URL="../subVIs/Draw Lines at Point.vi"/>
 			<Item Name="Draw Marker Lines.vi" Type="VI" URL="../subVIs/Draw Marker Lines.vi"/>
+			<Item Name="Draw Markers.vi" Type="VI" URL="../subVIs/Draw Markers.vi"/>
 			<Item Name="Draw RangeArrows.vi" Type="VI" URL="../subVIs/Draw RangeArrows.vi"/>
 			<Item Name="Find PeaksValleys.vi" Type="VI" URL="../subVIs/Find PeaksValleys.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
