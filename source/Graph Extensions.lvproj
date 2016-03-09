@@ -12,7 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Extensions" Type="Folder">
+			<Item Name="Determine if Mouse is in Bounds.vi" Type="VI" URL="../subVIs/Determine if Mouse is in Bounds.vi"/>
 			<Item Name="drag Markers.vi" Type="VI" URL="../Extensions/drag Markers.vi"/>
+			<Item Name="Marker Draw and Commands Loop.vi" Type="VI" URL="../Extensions/Marker Draw and Commands Loop.vi"/>
+			<Item Name="Marker Types.vi" Type="VI" URL="../UI/Marker Types.vi"/>
 			<Item Name="Set BGK Color.vi" Type="VI" URL="../Extensions/Set BGK Color.vi"/>
 			<Item Name="Show Cursors.vi" Type="VI" URL="../Extensions/Show Cursors.vi"/>
 			<Item Name="Show Peaks &amp; Valleys.vi" Type="VI" URL="../Extensions/Show Peaks &amp; Valleys.vi"/>
@@ -27,6 +30,7 @@
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
+				<Item Name="Draw Grayed Out Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Grayed Out Rect.vi"/>
 				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
 				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
 				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
@@ -53,12 +57,12 @@
 			<Item Name="Draw Lines at Point.vi" Type="VI" URL="../subVIs/Draw Lines at Point.vi"/>
 			<Item Name="Draw Marker Lines.vi" Type="VI" URL="../subVIs/Draw Marker Lines.vi"/>
 			<Item Name="Draw Markers.vi" Type="VI" URL="../subVIs/Draw Markers.vi"/>
+			<Item Name="Draw Range Border.vi" Type="VI" URL="../subVIs/Draw Range Border.vi"/>
 			<Item Name="Draw RangeArrows.vi" Type="VI" URL="../subVIs/Draw RangeArrows.vi"/>
 			<Item Name="Find PeaksValleys.vi" Type="VI" URL="../subVIs/Find PeaksValleys.vi"/>
 			<Item Name="GraphExt-Cmds.ctl" Type="VI" URL="../controls/GraphExt-Cmds.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="Marker Types.vi" Type="VI" URL="../UI/Marker Types.vi"/>
 			<Item Name="MarkerOptions.ctl" Type="VI" URL="../controls/MarkerOptions.ctl"/>
 			<Item Name="MarkersDVRType.ctl" Type="VI" URL="../subVIs/MarkersDVRType.ctl"/>
 			<Item Name="markerType.ctl" Type="VI" URL="../controls/markerType.ctl"/>

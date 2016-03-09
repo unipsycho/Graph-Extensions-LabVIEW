@@ -45,7 +45,6 @@ Allows data to be scanned for peaks and valleys with width and amplitude thresho
 ![Peaks&Valleys-1](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Peaks&Valleys.jpg)
 
 ##Markers
-Current in development:
 Markers will allow a user to add 6 types of markers to a graph:
 * Point
 * Line Vertical
@@ -58,9 +57,12 @@ Markers will allow a user to add 6 types of markers to a graph:
 
 ![RangePoint](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-Point.jpg)
 
-
 When marker mode is active, the mouse moves will be shown with a overlay for that marker, depending on the type selected by the user.
 
 The user can right click to change the marker mode on the graph.
 
 ![RightClick](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-RightClickTypes.jpg)
+
+Once any markers are added, they can be redrawn on the graph and all types can be used on the same graph, as many times as they are wanted.
+
+![Marker Types](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-Types.jpg)
