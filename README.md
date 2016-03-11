@@ -45,8 +45,9 @@ Allows data to be scanned for peaks and valleys with width and amplitude thresho
 ![Peaks&Valleys-1](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Peaks&Valleys.jpg)
 
 ##Markers
-Markers will allow a user to add 6 types of markers to a graph:
+Markers will allow a user to add 7 types of markers to a graph:
 * Point
+* Arrow
 * Line Vertical
 * Line Horizontal
 * Range Vertical

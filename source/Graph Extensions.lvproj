@@ -52,8 +52,10 @@
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 			</Item>
+			<Item Name="cmd_options.ctl" Type="VI" URL="../controls/cmd_options.ctl"/>
 			<Item Name="commands.ctl" Type="VI" URL="../controls/commands.ctl"/>
 			<Item Name="CursorOptions.ctl" Type="VI" URL="../controls/CursorOptions.ctl"/>
+			<Item Name="Draw Arrow at Bearing for arrow.vi" Type="VI" URL="../subVIs/Draw Arrow at Bearing for arrow.vi"/>
 			<Item Name="Draw Lines at Point.vi" Type="VI" URL="../subVIs/Draw Lines at Point.vi"/>
 			<Item Name="Draw Marker Lines.vi" Type="VI" URL="../subVIs/Draw Marker Lines.vi"/>
 			<Item Name="Draw Markers.vi" Type="VI" URL="../subVIs/Draw Markers.vi"/>
@@ -67,6 +69,7 @@
 			<Item Name="MarkersDVRType.ctl" Type="VI" URL="../subVIs/MarkersDVRType.ctl"/>
 			<Item Name="markerType.ctl" Type="VI" URL="../controls/markerType.ctl"/>
 			<Item Name="PeaksValleyOptions.ctl" Type="VI" URL="../controls/PeaksValleyOptions.ctl"/>
+			<Item Name="Simple Global for Marker Options.vi" Type="VI" URL="../controls/Simple Global for Marker Options.vi"/>
 			<Item Name="TOP BOTTOM Timestamp.vi" Type="VI" URL="../subVIs/TOP BOTTOM Timestamp.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
