@@ -54,6 +54,7 @@
 			</Item>
 			<Item Name="cmd_options.ctl" Type="VI" URL="../controls/cmd_options.ctl"/>
 			<Item Name="commands.ctl" Type="VI" URL="../controls/commands.ctl"/>
+			<Item Name="Create Edit Table of Markers.vi" Type="VI" URL="../subVIs/Create Edit Table of Markers.vi"/>
 			<Item Name="CursorOptions.ctl" Type="VI" URL="../controls/CursorOptions.ctl"/>
 			<Item Name="Draw Arrow at Bearing for arrow.vi" Type="VI" URL="../subVIs/Draw Arrow at Bearing for arrow.vi"/>
 			<Item Name="Draw Lines at Point.vi" Type="VI" URL="../subVIs/Draw Lines at Point.vi"/>
