@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -22,11 +23,12 @@
 			<Item Name="Show Cursors.vi" Type="VI" URL="../Extensions/Show Cursors.vi"/>
 			<Item Name="Show Peaks &amp; Valleys.vi" Type="VI" URL="../Extensions/Show Peaks &amp; Valleys.vi"/>
 		</Item>
-		<Item Name="Example XYGraph Cursors.vi" Type="VI" URL="../Example XYGraph Cursors.vi"/>
-		<Item Name="Example XYGraph Markers.vi" Type="VI" URL="../Example XYGraph Markers.vi"/>
-		<Item Name="Example XYGraph Peaks&amp;Valleys.vi" Type="VI" URL="../Example XYGraph Peaks&amp;Valleys.vi"/>
-		<Item Name="Example XYGraph Set BGK Color.vi" Type="VI" URL="../Example XYGraph Set BGK Color.vi"/>
-		<Item Name="GraphExtensions.lvlib" Type="Library" URL="../../../welaptega vision/Software/Source Code/GraphExtensions.lvlib"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Example XYGraph Cursors.vi" Type="VI" URL="../Examples/Example XYGraph Cursors.vi"/>
+			<Item Name="Example XYGraph Markers.vi" Type="VI" URL="../Examples/Example XYGraph Markers.vi"/>
+			<Item Name="Example XYGraph Peaks&amp;Valleys.vi" Type="VI" URL="../Examples/Example XYGraph Peaks&amp;Valleys.vi"/>
+			<Item Name="Example XYGraph Set BGK Color.vi" Type="VI" URL="../Examples/Example XYGraph Set BGK Color.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -69,60 +71,13 @@
 			<Item Name="GraphExt-Cmds.ctl" Type="VI" URL="../controls/GraphExt-Cmds.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="MarkerInfo.ctl" Type="VI" URL="../controls/MarkerInfo.ctl"/>
 			<Item Name="MarkerOptions.ctl" Type="VI" URL="../controls/MarkerOptions.ctl"/>
-			<Item Name="MarkersDVRType.ctl" Type="VI" URL="../subVIs/MarkersDVRType.ctl"/>
 			<Item Name="markerType.ctl" Type="VI" URL="../controls/markerType.ctl"/>
 			<Item Name="PeaksValleyOptions.ctl" Type="VI" URL="../controls/PeaksValleyOptions.ctl"/>
 			<Item Name="Simple Global for Marker Options.vi" Type="VI" URL="../controls/Simple Global for Marker Options.vi"/>
 			<Item Name="TOP BOTTOM Timestamp.vi" Type="VI" URL="../subVIs/TOP BOTTOM Timestamp.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="GraphExtensions" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{99BCCD53-9925-4E94-98DE-667499DAC030}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">GraphExtensions</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/GraphExtensions</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{0EE963B1-6174-4BE1-9FD0-9DA903D4A520}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">GraphExtensions.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GraphExtensions/GraphExtensions.lvlibp</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/GraphExtensions</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{10039546-B176-4BFB-813E-15193D97EC60}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Example XYGraph Cursors.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Example XYGraph Markers.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Example XYGraph Peaks&amp;Valleys.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Example XYGraph Set BGK Color.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">GraphExtensions</Property>
-				<Property Name="TgtF_internalName" Type="Str">GraphExtensions</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Mike King</Property>
-				<Property Name="TgtF_productName" Type="Str">GraphExtensions</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{A7A65046-538E-4886-AC2D-0097B2316679}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">GraphExtensions.lvlibp</Property>
-			</Item>
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
