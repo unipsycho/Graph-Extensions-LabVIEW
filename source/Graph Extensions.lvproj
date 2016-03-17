@@ -22,12 +22,14 @@
 			<Item Name="Set BGK Color.vi" Type="VI" URL="../Extensions/Set BGK Color.vi"/>
 			<Item Name="Show Cursors.vi" Type="VI" URL="../Extensions/Show Cursors.vi"/>
 			<Item Name="Show Peaks &amp; Valleys.vi" Type="VI" URL="../Extensions/Show Peaks &amp; Valleys.vi"/>
+			<Item Name="Add Shapes.vi" Type="VI" URL="../Extensions/Add Shapes.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Example XYGraph Cursors.vi" Type="VI" URL="../Examples/Example XYGraph Cursors.vi"/>
 			<Item Name="Example XYGraph Markers.vi" Type="VI" URL="../Examples/Example XYGraph Markers.vi"/>
 			<Item Name="Example XYGraph Peaks&amp;Valleys.vi" Type="VI" URL="../Examples/Example XYGraph Peaks&amp;Valleys.vi"/>
 			<Item Name="Example XYGraph Set BGK Color.vi" Type="VI" URL="../Examples/Example XYGraph Set BGK Color.vi"/>
+			<Item Name="Example XYGraph Shapes.vi" Type="VI" URL="../Examples/Example XYGraph Shapes.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
