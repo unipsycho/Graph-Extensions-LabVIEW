@@ -31,6 +31,7 @@
 			<Item Name="Example XYGraph Set BGK Color.vi" Type="VI" URL="../Examples/Example XYGraph Set BGK Color.vi"/>
 			<Item Name="Example XYGraph Shapes.vi" Type="VI" URL="../Examples/Example XYGraph Shapes.vi"/>
 		</Item>
+		<Item Name="Send Command.vi" Type="VI" URL="../Extensions/Send Command.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
