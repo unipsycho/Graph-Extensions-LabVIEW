@@ -22,16 +22,14 @@
 			<Item Name="Set BGK Color.vi" Type="VI" URL="../Extensions/Set BGK Color.vi"/>
 			<Item Name="Show Cursors.vi" Type="VI" URL="../Extensions/Show Cursors.vi"/>
 			<Item Name="Show Peaks &amp; Valleys.vi" Type="VI" URL="../Extensions/Show Peaks &amp; Valleys.vi"/>
-			<Item Name="Add Shapes.vi" Type="VI" URL="../Extensions/Add Shapes.vi"/>
+			<Item Name="Send Command.vi" Type="VI" URL="../Extensions/Send Command.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
+			<Item Name="Example XYGraph Set BGK Color.vi" Type="VI" URL="../Examples/Example XYGraph Set BGK Color.vi"/>
+			<Item Name="Example XYGraph Peaks&amp;Valleys.vi" Type="VI" URL="../Examples/Example XYGraph Peaks&amp;Valleys.vi"/>
 			<Item Name="Example XYGraph Cursors.vi" Type="VI" URL="../Examples/Example XYGraph Cursors.vi"/>
 			<Item Name="Example XYGraph Markers.vi" Type="VI" URL="../Examples/Example XYGraph Markers.vi"/>
-			<Item Name="Example XYGraph Peaks&amp;Valleys.vi" Type="VI" URL="../Examples/Example XYGraph Peaks&amp;Valleys.vi"/>
-			<Item Name="Example XYGraph Set BGK Color.vi" Type="VI" URL="../Examples/Example XYGraph Set BGK Color.vi"/>
-			<Item Name="Example XYGraph Shapes.vi" Type="VI" URL="../Examples/Example XYGraph Shapes.vi"/>
 		</Item>
-		<Item Name="Send Command.vi" Type="VI" URL="../Extensions/Send Command.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -59,9 +57,6 @@
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 			</Item>
 			<Item Name="cmd_options.ctl" Type="VI" URL="../controls/cmd_options.ctl"/>
 			<Item Name="commands.ctl" Type="VI" URL="../controls/commands.ctl"/>
@@ -83,6 +78,9 @@
 			<Item Name="PeaksValleyOptions.ctl" Type="VI" URL="../controls/PeaksValleyOptions.ctl"/>
 			<Item Name="Simple Global for Marker Options.vi" Type="VI" URL="../controls/Simple Global for Marker Options.vi"/>
 			<Item Name="TOP BOTTOM Timestamp.vi" Type="VI" URL="../subVIs/TOP BOTTOM Timestamp.vi"/>
+			<Item Name="Get Marker Coordinates.vi" Type="VI" URL="../subVIs/Get Marker Coordinates.vi"/>
+			<Item Name="Get marker Name.vi" Type="VI" URL="../UI/Get marker Name.vi"/>
+			<Item Name="Sort Corelated Arrays by Amplitude.vi" Type="VI" URL="../subVIs/Sort Corelated Arrays by Amplitude.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
