@@ -3,6 +3,12 @@ These add some nice mouse effects and highlighting options on XY graphs and Wave
 
 [Video Preview of Graph Extensions](https://www.youtube.com/watch?v=CI8e0whfr54)
 
+Currently, there are 4 main extensions:
+* Cursors - Show real time overlay of data values and time at the cursor and plot intersections
+* Graph BGK Colors - Lets you set bgk color where the minor and major grid colors are then setup for you
+* Peaks and Valleys - Allow you to highlight on the graph any # of peaks and valleys from the data
+* Markers - Interactive labels and regions to mark up the graph.
+
 ##Cursors
 -Shows cursors automatically at mouse for each plot.  Various options to enable added lines, sizing, text formating, timestamp displays, etc.
 
