@@ -64,6 +64,12 @@ The user can right click to change the marker mode on the graph.
 
 ![RightClick](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-RightClickTypes.jpg)
 
-Once any markers are added, they can be redrawn on the graph and all types can be used on the same graph, as many times as they are wanted.
+Once any markers are added, they are redrawn on the graph and all types can be used on the same graph, as many times as they are wanted.  
 
 ![Marker Types](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-Types.jpg)
+
+Other right click options are to allow the amrker colors and font settings to be updated live.
+![Marker Options](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-Options.jpg)
+
+Lastly, right clicking also allows the markers to be manually edited or removed.
+![Marker Edit](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-Editing.jpg)
