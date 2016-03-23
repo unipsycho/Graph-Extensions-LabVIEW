@@ -1,6 +1,8 @@
 # Graph-Extensions-LabVIEW
 These add some nice mouse effects and highlighting options on XY graphs and Waveform graphs by extending the picture controls within graphs and some simple events.
 
+[Video Preview of Graph Extensions](https://www.youtube.com/watch?v=CI8e0whfr54)
+
 ##Cursors
 -Shows cursors automatically at mouse for each plot.  Various options to enable added lines, sizing, text formating, timestamp displays, etc.
 
