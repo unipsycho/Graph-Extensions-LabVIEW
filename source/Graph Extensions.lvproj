@@ -79,8 +79,8 @@
 			<Item Name="Simple Global for Marker Options.vi" Type="VI" URL="../controls/Simple Global for Marker Options.vi"/>
 			<Item Name="TOP BOTTOM Timestamp.vi" Type="VI" URL="../subVIs/TOP BOTTOM Timestamp.vi"/>
 			<Item Name="Get Marker Coordinates.vi" Type="VI" URL="../subVIs/Get Marker Coordinates.vi"/>
-			<Item Name="Get marker Name.vi" Type="VI" URL="../UI/Get marker Name.vi"/>
 			<Item Name="Sort Corelated Arrays by Amplitude.vi" Type="VI" URL="../subVIs/Sort Corelated Arrays by Amplitude.vi"/>
+			<Item Name="Get marker name.vi" Type="VI" URL="../UI/Get marker name.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
