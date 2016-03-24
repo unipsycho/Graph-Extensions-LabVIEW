@@ -1,7 +1,16 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="IOScan.Faults" Type="Str"></Property>
+		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
+		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
+		<Property Name="IOScan.Period" Type="UInt">10000</Property>
+		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
+		<Property Name="IOScan.Priority" Type="UInt">9</Property>
+		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -12,24 +21,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Extensions" Type="Folder">
-			<Item Name="Markers" Type="Folder">
-				<Item Name="Determine if Mouse is in Bounds.vi" Type="VI" URL="../subVIs/Determine if Mouse is in Bounds.vi"/>
-				<Item Name="drag Markers.vi" Type="VI" URL="../Extensions/drag Markers.vi"/>
-				<Item Name="Marker Draw and Commands Loop.vi" Type="VI" URL="../Extensions/Marker Draw and Commands Loop.vi"/>
-				<Item Name="Marker Types.vi" Type="VI" URL="../UI/Marker Types.vi"/>
-			</Item>
-			<Item Name="Set BGK Color.vi" Type="VI" URL="../Extensions/Set BGK Color.vi"/>
-			<Item Name="Show Cursors.vi" Type="VI" URL="../Extensions/Show Cursors.vi"/>
-			<Item Name="Show Peaks &amp; Valleys.vi" Type="VI" URL="../Extensions/Show Peaks &amp; Valleys.vi"/>
-			<Item Name="Send Command.vi" Type="VI" URL="../Extensions/Send Command.vi"/>
-		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="Example XYGraph Set BGK Color.vi" Type="VI" URL="../Examples/Example XYGraph Set BGK Color.vi"/>
-			<Item Name="Example XYGraph Peaks&amp;Valleys.vi" Type="VI" URL="../Examples/Example XYGraph Peaks&amp;Valleys.vi"/>
 			<Item Name="Example XYGraph Cursors.vi" Type="VI" URL="../Examples/Example XYGraph Cursors.vi"/>
 			<Item Name="Example XYGraph Markers.vi" Type="VI" URL="../Examples/Example XYGraph Markers.vi"/>
+			<Item Name="Example XYGraph Peaks&amp;Valleys.vi" Type="VI" URL="../Examples/Example XYGraph Peaks&amp;Valleys.vi"/>
+			<Item Name="Example XYGraph Set BGK Color.vi" Type="VI" URL="../Examples/Example XYGraph Set BGK Color.vi"/>
 		</Item>
+		<Item Name="Graph Extensions.lvlib" Type="Library" URL="../Graph Extensions.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -58,29 +56,8 @@
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 			</Item>
-			<Item Name="cmd_options.ctl" Type="VI" URL="../controls/cmd_options.ctl"/>
-			<Item Name="commands.ctl" Type="VI" URL="../controls/commands.ctl"/>
-			<Item Name="Create Edit Table of Markers.vi" Type="VI" URL="../subVIs/Create Edit Table of Markers.vi"/>
-			<Item Name="CursorOptions.ctl" Type="VI" URL="../controls/CursorOptions.ctl"/>
-			<Item Name="Draw Arrow at Bearing for arrow.vi" Type="VI" URL="../subVIs/Draw Arrow at Bearing for arrow.vi"/>
-			<Item Name="Draw Lines at Point.vi" Type="VI" URL="../subVIs/Draw Lines at Point.vi"/>
-			<Item Name="Draw Marker Lines.vi" Type="VI" URL="../subVIs/Draw Marker Lines.vi"/>
-			<Item Name="Draw Markers.vi" Type="VI" URL="../subVIs/Draw Markers.vi"/>
-			<Item Name="Draw Range Border.vi" Type="VI" URL="../subVIs/Draw Range Border.vi"/>
-			<Item Name="Draw RangeArrows.vi" Type="VI" URL="../subVIs/Draw RangeArrows.vi"/>
-			<Item Name="Find PeaksValleys.vi" Type="VI" URL="../subVIs/Find PeaksValleys.vi"/>
-			<Item Name="GraphExt-Cmds.ctl" Type="VI" URL="../controls/GraphExt-Cmds.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="MarkerInfo.ctl" Type="VI" URL="../controls/MarkerInfo.ctl"/>
-			<Item Name="MarkerOptions.ctl" Type="VI" URL="../controls/MarkerOptions.ctl"/>
-			<Item Name="markerType.ctl" Type="VI" URL="../controls/markerType.ctl"/>
-			<Item Name="PeaksValleyOptions.ctl" Type="VI" URL="../controls/PeaksValleyOptions.ctl"/>
-			<Item Name="Simple Global for Marker Options.vi" Type="VI" URL="../controls/Simple Global for Marker Options.vi"/>
-			<Item Name="TOP BOTTOM Timestamp.vi" Type="VI" URL="../subVIs/TOP BOTTOM Timestamp.vi"/>
-			<Item Name="Get Marker Coordinates.vi" Type="VI" URL="../subVIs/Get Marker Coordinates.vi"/>
-			<Item Name="Sort Corelated Arrays by Amplitude.vi" Type="VI" URL="../subVIs/Sort Corelated Arrays by Amplitude.vi"/>
-			<Item Name="Get marker name.vi" Type="VI" URL="../UI/Get marker name.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
