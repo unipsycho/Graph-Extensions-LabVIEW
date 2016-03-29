@@ -26,6 +26,8 @@
 			<Item Name="Example XYGraph Markers.vi" Type="VI" URL="../Examples/Example XYGraph Markers.vi"/>
 			<Item Name="Example XYGraph Peaks&amp;Valleys.vi" Type="VI" URL="../Examples/Example XYGraph Peaks&amp;Valleys.vi"/>
 			<Item Name="Example XYGraph Set BGK Color.vi" Type="VI" URL="../Examples/Example XYGraph Set BGK Color.vi"/>
+			<Item Name="Example XYGraph Mouse Zoom.vi" Type="VI" URL="../Examples/Example XYGraph Mouse Zoom.vi"/>
+			<Item Name="Example XYGraph Plot Hi-Lite.vi" Type="VI" URL="../Examples/Example XYGraph Plot Hi-Lite.vi"/>
 		</Item>
 		<Item Name="Graph Extensions.lvlib" Type="Library" URL="../Graph Extensions.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -55,6 +57,7 @@
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>

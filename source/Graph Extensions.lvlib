@@ -28,6 +28,8 @@
 			<Item Name="Marker Draw and Commands Loop.vi" Type="VI" URL="../Extensions/Marker Draw and Commands Loop.vi"/>
 			<Item Name="Send Command.vi" Type="VI" URL="../Extensions/Send Command.vi"/>
 		</Item>
+		<Item Name="Highlight Plot.vi" Type="VI" URL="../Extensions/Highlight Plot.vi"/>
+		<Item Name="Mouse Zoom.vi" Type="VI" URL="../Extensions/Mouse Zoom.vi"/>
 		<Item Name="Set BGK Color.vi" Type="VI" URL="../Extensions/Set BGK Color.vi"/>
 		<Item Name="Show Cursors.vi" Type="VI" URL="../Extensions/Show Cursors.vi"/>
 		<Item Name="Show Peaks &amp; Valleys.vi" Type="VI" URL="../Extensions/Show Peaks &amp; Valleys.vi"/>
