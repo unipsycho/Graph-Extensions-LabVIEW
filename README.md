@@ -87,5 +87,7 @@ Lastly, right clicking also allows the markers to be manually edited or removed.
 ##Scroll Wheel Zooming
 This is a simple extension that allows the mouse scroll wheel to perform centered zooming functions at the current mouse location. It is added with just a single VI to the events, to enable the scroll wheel function.
 
+[Video Preview of Scrollwheel Zooming](https://www.youtube.com/watch?v=MEl2nwqDpgE)
+
 ##Plot Highlight
 This extension is a single VI that can be used to visually highlight a plot (specifically when using a multiplot graph) so that the plot of interest can be shown.  Useful when combined with plot selections or plot updates that might need to be highlighted to the user.
