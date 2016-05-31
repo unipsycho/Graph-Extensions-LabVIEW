@@ -83,3 +83,9 @@ Other right click options are to allow the amrker colors and font settings to be
 
 Lastly, right clicking also allows the markers to be manually edited or removed.
 ![Marker Edit](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-Editing.jpg)
+
+##Scroll Wheel Zooming
+This is a simple extension that allows the mouse scroll wheel to perform centered zooming functions at the current mouse location. It is added with just a single VI to the events, to enable the scroll wheel function.
+
+##Plot Highlight
+This extension is a single VI that can be used to visually highlight a plot (specifically when using a multiplot graph) so that the plot of interest can be shown.  Useful when combined with plot selections or plot updates that might need to be highlighted to the user.
