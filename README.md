@@ -10,7 +10,7 @@ Currently, there are 6 main extensions:
 * Markers - Interactive labels and regions to mark up the graph.
 * Scrollwheel Zooming - adjust and zoom the graph by using the scroll wheel
 * Plot Highlight - flash or highlight a plot by its thickness, to emphasize one plot
-
+s
 ##Cursors
 -Shows cursors automatically at mouse for each plot.  Various options to enable added lines, sizing, text formating, timestamp displays, etc.
 
@@ -84,8 +84,8 @@ Other right click options are to allow the amrker colors and font settings to be
 Lastly, right clicking also allows the markers to be manually edited or removed.
 ![Marker Edit](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-Editing.jpg)
 
-##Scrollwheel Zooming
-This mouse event is used to allow any graph to easily be zoom in and out using the mouse scroll wheel.  The nice thing about it, is that the zoom occurs around the mouse location on the graph, so the data is zoomed in and out precisely from where the mouse is pointing, so its very easy and fast to zoom in and out of a particular area on the graph.
+##Scroll Wheel Zooming
+This is a simple extension that allows the mouse scroll wheel to perform centered zooming functions at the current mouse location. It is added with just a single VI to the events, to enable the scroll wheel function.
 
 ##Plot Highlight
-This is an extension that can be used programatically to highlight a plot to the user, which is often needed when there is a complex multiplot.  It can be used to highlight an update, highlight the plot when the user shows or hides or changes settings, or simply as a event when any kind of plot selection changes in the application.
+This extension is a single VI that can be used to visually highlight a plot (specifically when using a multiplot graph) so that the plot of interest can be shown.  Useful when combined with plot selections or plot updates that might need to be highlighted to the user.
