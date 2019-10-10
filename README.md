@@ -11,7 +11,7 @@ Currently, there are 6 main extensions:
 * Scrollwheel Zooming - adjust and zoom the graph by using the scroll wheel
 * Plot Highlight - flash or highlight a plot by its thickness, to emphasize one plot
 s
-##Cursors
+## Cursors
 -Shows cursors automatically at mouse for each plot.  Various options to enable added lines, sizing, text formating, timestamp displays, etc.
 
 Shows real time cursors overlayed in a graph, using just one mouse move event case.  The options for the cursors can be highly customized to set up a unique cursor style.
@@ -21,7 +21,7 @@ Usage: Place this inside an event structure on any XY graph, in the "Mouse Move"
 ![Cursor-Simple](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Cursors-Simple.JPG)
 
 
-###Cursor Options
+### Cursor Options
 <b>Horizontal Line?</b> - Draws a horizontal line to intersect each plot
 <b>Verticle Line?</b> - Draws a verticle line at the mouse location to highlight the cursor location (typically on the time scale)
 <b>Timestamp</b> - Sets where to display the timestamp (if you want it at the top or bottom)  Used best with the verticle line turned on.
@@ -38,7 +38,7 @@ This shows the value of the plot with 2 decimal places.  A blank line, then the 
 
 ![Cursor-Advanced](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Cursors-Advanced.JPG)
 
-##Graph BGK Colors
+## Graph BGK Colors
 This allows a graph to easily have its background color changed, and the gird lines will automatically be colored to subtly match the color based on shifting the luminance up or down to constrast the color set.
 
 ![BGK-1](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/SetBGKColor-2.JPG)
@@ -49,12 +49,12 @@ This allows a graph to easily have its background color changed, and the gird li
 
 Used by reference with a color input, to simply change the color. Can be user driven or used once for initialization.
 
-##Peaks and Valleys
+## Peaks and Valleys
 Allows data to be scanned for peaks and valleys with width and amplitude thresholds to determine them.  It can be used statically or driven in an event structure on graph scale changes to have it follow the graph edits by a user.
 
 ![Peaks&Valleys-1](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Peaks&Valleys.jpg)
 
-##Markers
+## Markers
 Markers will allow a user to add 7 types of markers to a graph:
 * Point
 * Arrow
@@ -84,10 +84,10 @@ Other right click options are to allow the amrker colors and font settings to be
 Lastly, right clicking also allows the markers to be manually edited or removed.
 ![Marker Edit](https://github.com/unipsycho/Graph-Extensions-LabVIEW/blob/master/documentation/images/Markers-Editing.jpg)
 
-##Scroll Wheel Zooming
+## Scroll Wheel Zooming
 This is a simple extension that allows the mouse scroll wheel to perform centered zooming functions at the current mouse location. It is added with just a single VI to the events, to enable the scroll wheel function.
 
 [Video Preview of Scrollwheel Zooming](https://www.youtube.com/watch?v=MEl2nwqDpgE)
 
-##Plot Highlight
+## Plot Highlight
 This extension is a single VI that can be used to visually highlight a plot (specifically when using a multiplot graph) so that the plot of interest can be shown.  Useful when combined with plot selections or plot updates that might need to be highlighted to the user.
